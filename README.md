@@ -1,5 +1,5 @@
 # Golf-club
-This is a app of an international golf club.< br>
+This is a app of an international golf club.<br>
 You can login/sign up and see the available golf clubs.<br>
 The app changes to either ENGLISH and Kiswahili depending on user's language.<br>
 The apk is found in Release folder.<br>
