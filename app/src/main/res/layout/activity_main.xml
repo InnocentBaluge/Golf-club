@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:background="@color/colorPrimaryVariant"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/indigo_daisy"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="#000"
+        android:textSize="50sp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#fbfefd"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/poppinsmedium"
+        android:drawableRight="@drawable/ic_name"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextF_Name"
+        android:hint="@string/first_name"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editTextL_Name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextF_Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#fbfefd"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:drawableRight="@drawable/ic_name"
+        android:gravity="center"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextL_Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#fbfefd"
+        android:drawableRight="@drawable/ic_e_mail"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#fbfefd"
+        android:drawableRight="@drawable/ic_password"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#fbfefd"
+        android:drawableRight="@drawable/ic_password"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/register" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/login_here"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/swahili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/swahili"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

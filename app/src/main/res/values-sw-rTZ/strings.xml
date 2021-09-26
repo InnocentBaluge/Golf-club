@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_name">Ingiza jina lako la kwanza</string>
+    <string name="last_name">Ingiza jina lako la mwisho</string>
+    <string name="email">ingiza  barua pepe</string>
+    <string name="password">nenosiri</string>
+    <string name="login_here">Tayari Usajili | Ingia hapa</string>
+    <string name="register">Jisajili</string>
+    <string name="login">Ingia</string>
+    <string name="log_in_here">Ingia hapa</string>
+    <string name="register_here">Huna akaunti? | Jisajili Hapa</string>
+    <string name="logout">Kuondoka</string>
+    <string name="successful">Karibu</string>
+    <string name="successful_logout">Umeondoka kwa mafanikio</string>
+    <string name="golf_list">Tazama vilabu vya gofu</string>
+    <string name="fill_all">Tafadhali jaza sehemu zote</string>
+    <string name="loading">Inapakia Takwimu</string>
+    <string name="clicked">Umebonyeza</string>
+    <string name="confirm_password">thibitisha nenosiri</string>
+    <string name="Password_not_match">Nenosiri halilingani</string>
+    <string name="password_length">Nenosiri linapaswa kuwa na herufi 8 chini</string>
+    <string name="my_image_description">Huduma zetu ni mashindano ya Gofu, chumba cha kupumzika, Chuo cha Gofu</string>
+</resources>

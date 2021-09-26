@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_name">Enter your First Name</string>
+    <string name="last_name">Enter your Last name</string>
+    <string name="email">Enter your Email</string>
+    <string name="password">Enter your Password</string>
+    <string name="login_here">Already Ready Register | Login</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="log_in_here">Login Here</string>
+    <string name="register_here">Don\'t have an account?|Regesiter here</string>
+    <string name="logout">Logout</string>
+    <string name="successful">Welcome</string>
+    <string name="successful_logout">Log Out Successfully</string>
+    <string name="golf_list">View golf clubs</string>
+    <string name="fill_all">Please fill all the fields</string>
+    <string name="loading">Loading Data</string>
+    <string name="clicked">"Clicked "</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="Password_not_match">Password not matching</string>
+    <string name="password_length">The password should have 8 characters minimum</string>
+    <string name="my_image_description">Our services are Golf competions, lounge, Golf academy</string>
+</resources>

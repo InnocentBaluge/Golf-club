@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLoginActivity"
+    android:background="#87a03f"
+    android:padding="20dp">
+
+    <TextView
+        android:text="@string/login"
+        android:fontFamily="@font/indigo_daisy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="90sp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fbfefd"
+        android:drawableRight="@drawable/ic_e_mail"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#fbfefd"
+        android:drawableRight="@drawable/ic_password"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/log_in_here"
+        android:fontFamily="@font/poppinsmedium"/>
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="87dp"
+        android:textSize="8sp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/register_here" />
+
+</RelativeLayout>
